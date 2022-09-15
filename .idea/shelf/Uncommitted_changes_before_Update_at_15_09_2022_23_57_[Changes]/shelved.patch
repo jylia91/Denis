@@ -1,0 +1,275 @@
+Index: src/Maine.java
+===================================================================
+diff --git a/src/Maine.java b/src/Maine.java
+deleted file mode 100644
+--- a/src/Maine.java	(revision f34005df5a5a682fe99a98af5e58045054edd39c)
++++ /dev/null	(revision f34005df5a5a682fe99a98af5e58045054edd39c)
+@@ -1,80 +0,0 @@
+-public class Maine {
+-
+-    public static void main(String[] args) {
+-
+-        int age = 19;
+-        if (age >= 18 && age < 21) {
+-            System.out.println("Ты достаточно взрослый, чтобы водить, но недостаточно взрослый, чтобы пить алкоголь");
+-        }
+-
+-        if (age < 7 || age > 18) {
+-            System.out.println("Я думаю ты не ходишь в школу");
+-        }
+-
+-
+-        int Android = 1;
+-        if (Android == 1) {
+-            System.out.println("Установите версию приложения для Android по ссылке");
+-        }
+-        double IOS = 1.0;
+-        if (IOS == 1.0) {
+-            System.out.println("Установите версию приложения для IOS по ссылке");
+-        }
+-
+-        int clientDeviceYearAndroid = 2015;
+-        if (clientDeviceYearAndroid <= 2015) {
+-            System.out.println("Установите версию для Android по ссылке ");
+-            if (clientDeviceYearAndroid >= 2014) {
+-                System.out.println("Установите облегченную версию Android по ссылке");
+-            }
+-        }
+-        int clientDeviceYearIOS = 2015;
+-        if (clientDeviceYearIOS <= 2015) {
+-            System.out.println("Установите версию для IOS по ссылке ");
+-            if (clientDeviceYearIOS >= 2014) {
+-                System.out.println("Установите облегченную версию IOS по ссылке");
+-            }
+-        }
+-
+-
+-        int year = 2021;
+-        if ((year % 4 == 0) && year % 100 != 0) {
+-            System.out.println(year + "год является високосным");
+-        } else {
+-            System.out.println(year + "год не является високосным");
+-        }
+-
+-        int deliveryDistance = 95;
+-        if (deliveryDistance <= 20) {
+-            System.out.println("Потребуется один день доставки");
+-        } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
+-            System.out.println("Потребуется два дня доставки");
+-        } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
+-            System.out.println("Потребуется три дня доставки");
+-        }
+-
+-        int monthNumber = 12;
+-        switch (monthNumber) {
+-            case 1, 2, 12:
+-                System.out.println("Сезон зимний");
+-                break;
+-            case 3, 4, 5:
+-                System.out.println("Сезон весенний");
+-                break;
+-            case 6, 7, 8:
+-                System.out.println("Сезон летний");
+-                break;
+-            case 9, 10, 11:
+-                System.out.println("Сезон осенний");
+-                break;
+-            default:
+-                System.out.println("Нет такого месяца в сезонах)");
+-        }
+-
+-        int Age = 19;
+-        int salary = 58_000;
+-        if (Age >= 23 && salary < 50_000) {
+-            System.out.println("Твой лимит равен трем твоим зп");
+-        }
+-    }
+-}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"fe782c0e-8848-4fc1-b08a-8213e213d350\" name=\"Changes\" comment=\"обоги\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <favorite-branches>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"LOCAL\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"main\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </favorite-branches>\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Deniisssss\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2EorXbeuODI3D4kXOy6eW3mV5AM\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"fe782c0e-8848-4fc1-b08a-8213e213d350\" name=\"Changes\" comment=\"\" />\r\n      <created>1663272822375</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1663272822375</updated>\r\n      <workItem from=\"1663272823712\" duration=\"1912000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"обоги\">\r\n      <created>1663273071114</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1663273071114</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"обоги\">\r\n      <created>1663273104705</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1663273104705</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"alala\">\r\n      <created>1663273481753</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1663273481753</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"обоги\">\r\n      <created>1663273578690</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1663273578690</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"обоги\">\r\n      <created>1663273591684</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1663273591684</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"обоги\">\r\n      <created>1663274494408</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1663274494408</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"main\" />\r\n                </option>\r\n              </RecentGroup>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"Deniisssss\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"alala\" />\r\n    <MESSAGE value=\"обоги\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"обоги\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f34005df5a5a682fe99a98af5e58045054edd39c)
++++ b/.idea/workspace.xml	(date 1663275260265)
+@@ -31,6 +31,7 @@
+         </map>
+       </branch-storage>
+     </favorite-branches>
++    <option name="PUSH_AUTO_UPDATE" value="true" />
+     <option name="PUSH_TAGS">
+       <GitPushTagMode>
+         <option name="argument" value="--tags" />
+@@ -53,17 +54,39 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)"
+-  }
+-}]]></component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
++  }
++}</component>
++  <component name="RunManager" selected="Application.Main">
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main" />
++      <module name="Denis" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Maine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Maine" />
++      <module name="Denis" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.Main" />
++        <item itemvalue="Application.Maine" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -73,6 +96,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1663272822375</updated>
+       <workItem from="1663272823712" duration="1912000" />
++      <workItem from="1663274796353" duration="433000" />
+     </task>
+     <task id="LOCAL-00001" summary="обоги">
+       <created>1663273071114</created>
+@@ -116,7 +140,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1663274494408</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="обоги">
++      <created>1663274898891</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1663274898891</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1251
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision f34005df5a5a682fe99a98af5e58045054edd39c)
++++ b/src/Main.java	(date 1663275431320)
+@@ -1,5 +1,81 @@
++
+ public class Main {
++
+     public static void main(String[] args) {
+-        System.out.println("Hello world!");
++
++        int age = 19;
++        if (age >= 18 && age < 21) {
++            System.out.println("Ты достаточно взрослый, чтобы водить, но недостаточно взрослый, чтобы пить алкоголь");
++        }
++
++        if (age < 7 || age > 18) {
++            System.out.println("Я думаю ты не ходишь в школу");
++        }
++
++
++        int Android = 1;
++        if (Android == 1) {
++            System.out.println("Установите версию приложения для Android по ссылке");
++        }
++        double IOS = 1.0;
++        if (IOS == 1.0) {
++            System.out.println("Установите версию приложения для IOS по ссылке");
++        }
++
++        int clientDeviceYearAndroid = 2015;
++        if (clientDeviceYearAndroid <= 2015) {
++            System.out.println("Установите версию для Android по ссылке ");
++            if (clientDeviceYearAndroid >= 2014) {
++                System.out.println("Установите облегченную версию Android по ссылке");
++            }
++        }
++        int clientDeviceYearIOS = 2015;
++        if (clientDeviceYearIOS <= 2015) {
++            System.out.println("Установите версию для IOS по ссылке ");
++            if (clientDeviceYearIOS >= 2014) {
++                System.out.println("Установите облегченную версию IOS по ссылке");
++            }
++        }
++
++
++        int year = 2021;
++        if ((year % 4 == 0) && year % 100 != 0) {
++            System.out.println(year + "год является високосным");
++        } else {
++            System.out.println(year + "год не является високосным");
++        }
++
++        int deliveryDistance = 95;
++        if (deliveryDistance <= 20) {
++            System.out.println("Потребуется один день доставки");
++        } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
++            System.out.println("Потребуется два дня доставки");
++        } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
++            System.out.println("Потребуется три дня доставки");
++        }
++
++        int monthNumber = 12;
++        switch (monthNumber) {
++            case 1, 2, 12:
++                System.out.println("Сезон зимний");
++                break;
++            case 3, 4, 5:
++                System.out.println("Сезон весенний");
++                break;
++            case 6, 7, 8:
++                System.out.println("Сезон летний");
++                break;
++            case 9, 10, 11:
++                System.out.println("Сезон осенний");
++                break;
++            default:
++                System.out.println("Нет такого месяца в сезонах)");
++        }
++
++        int Age = 19;
++        int salary = 58_000;
++        if (Age >= 23 && salary < 50_000) {
++            System.out.println("Твой лимит равен трем твоим зп");
++        }
+     }
+ }
+\ No newline at end of file
